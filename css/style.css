@@ -194,6 +194,10 @@ p{
     background-color: var(--bg2-color);
     flex-basis: calc((100% - 72px) / 4));
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 
+        0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08)
 }
 /* Portfiloi */
 .button-portfolio{
@@ -276,6 +280,7 @@ p{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: inline-block;
 }
 .logo{
     display: flex;
@@ -423,12 +428,13 @@ p{
     align-items: baseline;
 }
 .footer-soc-txt {
-    line-height: 1.5;
-    font-size: 16px;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-white);
+    color: var(--bg2-color);
     margin-bottom: 16px;
+    
 }
 
 .footer-soc-list {
@@ -436,12 +442,10 @@ p{
     justify-content: center;
     gap: 16px;
 }
-
 .footer-soc-item {
     width: 40px;
     height: 40px;
 }
-
 .footer-soc-link {
     width: 100%;
     height: 100%;
@@ -451,7 +455,6 @@ p{
     align-items: center;
     justify-content: center;
 }
-
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: ##31d0aa;
@@ -460,8 +463,6 @@ p{
 .footer-soc-icon {
     fill: var(--bg-color);
 }
-.footer-cont{
-    display: flex;
-    align-items: baseline;
-
+.footer-text{
+    margin-right: 120px;
 }
